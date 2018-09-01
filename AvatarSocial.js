@@ -10,7 +10,6 @@ export default class AvatarSocial extends Component {
 
   viewPosition() {
     const { dim, positionStatus } = this.props;
-
     if (positionStatus == 'right')
       return {
         right: (dim - 30) * 0.1,
