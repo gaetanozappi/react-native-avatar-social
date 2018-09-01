@@ -9,9 +9,9 @@ export default class AvatarSocial extends Component {
   };
 
   viewPosition() {
-    const { dim, positionBadge } = this.props;
+    const { dim, positionStatus } = this.props;
 
-    if (positionBadge == 'right')
+    if (positionStatus == 'right')
       return {
         right: (dim - 30) * 0.1,
       };
@@ -36,7 +36,6 @@ export default class AvatarSocial extends Component {
       badgeBackground,
       type,
       name,
-      positionBadge,
     } = this.props;
 
     return (

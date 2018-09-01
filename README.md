@@ -56,7 +56,7 @@ export default class App extends Component {
           badgeText={100}
           badgeColor={'#ffffff'}
           badgeBackground={'#ff9d00'}
-          positionBadge="right"
+          positionStatus="right"
         />
         <AvatarSocial
           dim={80}
@@ -73,7 +73,7 @@ export default class App extends Component {
           badgeFunction={e => {
             return e > 99 ? '99+' : e;
           }}
-          positionBadge="left"
+          positionStatus="left"
         />
         <AvatarSocial
           dim={80}
@@ -101,7 +101,7 @@ export default class App extends Component {
           badgeFunction={e => {
             return e > 99 ? '99+' : e;
           }}
-          positionBadge="left"
+          positionStatus="left"
         />
         <AvatarSocial
           dim={80}
@@ -127,18 +127,17 @@ export default class App extends Component {
 | `dim`       | `number`   |    | Avatar size.
 | `image`      | `object`   |  | We need to pass an image, as in the example.
 | `name`      | `string`   |  | Name to pass in case you want to use the letter mode or the image attribute is not found.
-| `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode,
-to use image you have to pass an image url.
+| `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode, to use image you have to pass an image url.
 | `isStatus`      | `bool`   |  | Indicates whether to have the status icon.
 | `isIcon`      | `bool`   |  | Indicates whether to have the status icon.
 | `icon`      | `FontAwesome`   |  | Indicates what kind of icon to use.
 | `iconSize`      | `number`   |  | Icon size.
 | `iconColor`      | `string`   |  | Icon color.
 | `badgeText`      | `string`   |  | Badge text.
-| `badgeColor`      | `string`   | `#000000` |
-| `badgeBackground`      | `string`   | `transparent` |
+| `badgeColor`      | `string`   | `#000000` | Color of the badge text
+| `badgeBackground`      | `string`   | `transparent` | Background color of the badge
 | `badgeFunction`      | `function`   |  | Use in case you want to define a function, for the badgeText attribute.
-| `positionBadge`      | `string`   | `left` |
+| `positionStatus`      | `string`   | `left` | Status position
 
 
 ## License
