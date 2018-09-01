@@ -134,10 +134,10 @@ export default class App extends Component {
 | `iconSize`      | `number`   |  | Icon size.
 | `iconColor`      | `string`   |  | Icon color.
 | `badgeText`      | `string`   |  | Badge text.
-| `badgeColor`      | `string`   | `#000000` |
-| `badgeBackground`      | `string`   | `transparent` |
+| `badgeColor`      | `string`   | `#000000` | Color of the badge text
+| `badgeBackground`      | `string`   | `transparent` | Background color of the badge
 | `badgeFunction`      | `function`   |  | Use in case you want to define a function, for the badgeText attribute.
-| `positionBadge`      | `string`   | `left` |
+| `positionStatus`      | `string`   | `left` | Status position
 
 
 ## License
