@@ -127,8 +127,7 @@ export default class App extends Component {
 | `dim`       | `number`   |    | Avatar size.
 | `image`      | `object`   |  | We need to pass an image, as in the example.
 | `name`      | `string`   |  | Name to pass in case you want to use the letter mode or the image attribute is not found.
-| `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode,
-to use image you have to pass an image url.
+| `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode, to use image you have to pass an image url.
 | `isStatus`      | `bool`   |  | Indicates whether to have the status icon.
 | `isIcon`      | `bool`   |  | Indicates whether to have the status icon.
 | `icon`      | `FontAwesome`   |  | Indicates what kind of icon to use.
