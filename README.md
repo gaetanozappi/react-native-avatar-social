@@ -125,7 +125,7 @@ export default class App extends Component {
 | Prop              | Type       | Default | Note                                                                                                       |
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | `dim`       | `number`   |    | Avatar size.
-| `image`      | `object`   |  | We need to pass an image, as in the example.
+| `image`      | `string`   |  | We need to pass an url image, as in the example.
 | `name`      | `string`   |  | Name to pass in case you want to use the letter mode or the image attribute is not found.
 | `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode, to use image you have to pass an image url.
 | `isStatus`      | `bool`   |  | Indicates whether to have the status icon.
@@ -134,8 +134,8 @@ export default class App extends Component {
 | `iconSize`      | `number`   |  | Icon size.
 | `iconColor`      | `string`   |  | Icon color.
 | `badgeText`      | `string`   |  | Badge text.
-| `badgeColor`      | `string`   | `#000000` | Color of the badge text
-| `badgeBackground`      | `string`   | `transparent` | Background color of the badge
+| `badgeColor`      | `string`   | `#000000` | Color of the badge text.
+| `badgeBackground`      | `string`   | `transparent` | Background color of the badge.
 | `badgeFunction`      | `function`   |  | Use in case you want to define a function, for the badgeText attribute.
 | `positionStatus`      | `string`   | `left` | Status position
 
