@@ -1,8 +1,14 @@
 # React Native: react-native-avatar-social
 
 [![github home](http://img.shields.io/npm/v/react-native-avatar-social.svg?style=flat)](https://www.npmjs.com/package/react-native-avatar-social)
+![platforms](https://img.shields.io/badge/platforms-Android-brightgreen.svg?style=flat&colorB=191A17)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--avatar--social-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-avatar-social)
+[![npm](https://img.shields.io/npm/dm/react-native-avatar-social.svg?style=flat&colorB=007ec6)](https://www.npmjs.com/package/react-native-avatar-social)
+
 [![github issues](https://img.shields.io/github/issues/gaetanozappi/react-native-avatar-social.svg?style=flat)](https://github.com/gaetanozappi/react-native-avatar-social/issues)
+[![github closed issues](https://img.shields.io/github/issues-closed/gaetanozappi/react-native-avatar-social.svg?style=flat&colorB=44cc11)](https://github.com/gaetanozappi/react-native-avatar-social/issues?q=is%3Aissue+is%3Aclosed)
+[![Issue Stats](https://img.shields.io/issuestats/i/github/gaetanozappi/react-native-avatar-social.svg?style=flat&colorB=44cc11)](http://github.com/gaetanozappi/react-native-avatar-social/issues)
+[![github license](https://img.shields.io/github/license/gaetanozappi/react-native-avatar-social.svg)]()
 
 ![PNG](screenshot/react-native-avatar-social.png)
 
