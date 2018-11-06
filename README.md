@@ -12,14 +12,14 @@
 
 ![PNG](screenshot/react-native-avatar-social.png)
 
--   [Usage](#usage)
--   [License](#license)
+-   [Usage](#-usage)
+-   [License](#-license)
 
 ## 📖 Getting started
 
 `$ npm install react-native-avatar-social --save`
 
-## Usage
+## 💻 Usage
 
 ```javascript
 import React, { Component } from 'react';
@@ -145,6 +145,5 @@ export default class App extends Component {
 | `badgeFunction`      | `function`   |  | Use in case you want to define a function, for the badgeText attribute.
 | `positionStatus`      | `string`   | `left` | Status position
 
-
-## License
+## 📜 License
 This library is provided under the Apache License.
