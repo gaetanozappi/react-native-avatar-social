@@ -19,6 +19,10 @@
 
 `$ npm install react-native-avatar-social --save`
 
+`$ react-native link react-native-material-letter-icon`
+
+`$ react-native link react-native-vector-icons`
+
 ## 💻 Usage
 
 ```javascript
