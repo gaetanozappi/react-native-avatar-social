@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "react-native-material-letter-icon": "0.0.2",
+    "react-native-material-letter-icon": "0.0.3",
     "react-native-vector-icons": "^5.0.0"
   },
   "keywords": [
