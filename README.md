@@ -1,5 +1,6 @@
 # React Native: react-native-avatar-social
 
+[![GitHub package version](https://img.shields.io/github/package-json/v/gaetanozappi/react-native-avatar-social.svg?style=flat&colorB=2b7cff)](https://github.com/gaetanozappi/react-native-avatar-social)
 [![github home](http://img.shields.io/npm/v/react-native-avatar-social.svg?style=flat)](https://www.npmjs.com/package/react-native-avatar-social)
 ![platforms](https://img.shields.io/badge/platforms-Android-brightgreen.svg?style=flat&colorB=191A17)
 [![github home](https://img.shields.io/badge/gaetanozappi-react--native--avatar--social-blue.svg?style=flat)](https://github.com/gaetanozappi/react-native-avatar-social)
