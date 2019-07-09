@@ -94,9 +94,7 @@ export default class AvatarSocial extends Component {
 
         {type == 'image' && image ? (
           <Image
-            source={{
-              uri: image,
-            }}
+            source={image}
             style={{
               width: dim - 30,
               height: dim - 30,
