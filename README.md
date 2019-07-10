@@ -37,9 +37,9 @@ export default class App extends Component {
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <AvatarSocial
           dim={150}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           type="image"
           isStatus={true}
@@ -55,9 +55,9 @@ export default class App extends Component {
         />
         <AvatarSocial
           dim={150}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           type="image"
           isStatus={true}
@@ -71,9 +71,9 @@ export default class App extends Component {
         />
         <AvatarSocial
           dim={80}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           type="image"
           isStatus={true}
@@ -88,9 +88,9 @@ export default class App extends Component {
         />
         <AvatarSocial
           dim={80}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           type="image"
           isStatus={true}
@@ -100,9 +100,9 @@ export default class App extends Component {
         />
         <AvatarSocial
           dim={80}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           isStatus={true}
           isIcon={false}
@@ -116,9 +116,9 @@ export default class App extends Component {
         />
         <AvatarSocial
           dim={80}
-          image={
-            'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
-          }
+          image={{
+              uri: 'https://image.tmdb.org/t/p/w300_and_h450_bestv2/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg'
+          }}
           name="Connie Nielsen"
           isStatus={true}
           isIcon={true}
@@ -136,7 +136,7 @@ export default class App extends Component {
 | Prop              | Type       | Default | Note                                                                                                       |
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | `dim`       | `number`   |    | Avatar size.
-| `image`      | `string`   |  | We need to pass an url image, as in the example.
+| `image`      | `obj`   |  | We need to pass an url image, as in the example, or a required local image.
 | `name`      | `string`   |  | Name to pass in case you want to use the letter mode or the image attribute is not found.
 | `type`      | `string`   |  `letter` | Choose whether to use the letter or image mode, to use image you have to pass an image url.
 | `isStatus`      | `bool`   |  | Indicates whether to have the status icon.
